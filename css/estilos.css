@@ -1,0 +1,84 @@
+body{
+    background: url(../img/img2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+input[type="date"]{
+    background: rgba(0, 0, 0, .7)url(../img/calendar2.png) 97% 50% no-repeat;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+.ayuda{
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    float: right;
+}
+.form{
+    background: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    color: #48C9B0;
+    }
+ .form-title{
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #48C9B0;
+    padding: 14px;
+    text-align: center;
+}
+}
+.form-label{
+    display: block;
+    color: #48C9B0;
+    font-size: 16px;
+    font-color:#48C9B0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    color: #48C9B0;
+}
+.form-input, .form-textarea{
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #48C9B0;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #48C9B0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-submit{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    font-size: 16px;
+    color: #ffff;
+    background: #48C9B0;
+    padding: 15px 0;
+    border: none;
+}
+
+.form-input2{
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #48C9B0;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #48C9B0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
