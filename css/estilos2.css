@@ -1,7 +1,8 @@
 
 
+
 .info1{
-    background: rgba(0, 0, 0, .6);
+    background: #F2F4F4;
     width: 90%;
     max-width: 650px;
     margin: auto;
@@ -9,7 +10,7 @@
     margin-top: 30px;
     padding-bottom: 30px;
     border-radius: 3px;
-    color: #48C9B0;
+    color: #2980B9;
     }
 body{
     background: url(../img/img2.jpg);
