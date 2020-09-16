@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
 }
 input[type="date"]{
-    background: rgba(0, 0, 0, .7)url(../img/calendar2.png) 97% 50% no-repeat;
+    background: #FDFEFE;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
@@ -18,7 +18,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     float: right;
 }
 .form{
-    background: rgba(0, 0, 0, .6);
+    background: #F2F4F4;
     width: 90%;
     max-width: 650px;
     margin: auto;
@@ -26,7 +26,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-top: 30px;
     padding-bottom: 30px;
     border-radius: 3px;
-    color: #48C9B0;
+    color: #2980B9;
     }
  .form-title{
     font-weight: normal;
@@ -46,7 +46,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #48C9B0;
 }
 .form-input, .form-textarea{
-    background: rgba(0, 0, 0, .7);
+    background: #FDFEFE;
     border: none;
     outline: none;
     border-bottom: 2px solid #48C9B0;
@@ -55,7 +55,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-bottom: 20px;
     border-radius: 2px;
     font-size: 14px;
-    color: #48C9B0;
+    color: #2980B9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .form-submit{
@@ -63,14 +63,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: none;
     font-size: 16px;
-    color: #ffff;
-    background: #48C9B0;
+    color: #2980B9;
+    background:#FDFEFE;
     padding: 15px 0;
     border: none;
 }
 
 .form-input2{
-    background: rgba(0, 0, 0, .7);
+    background:#FDFEFE;
     border: none;
     outline: none;
     border-bottom: 2px solid #48C9B0;
@@ -80,5 +80,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: 2px;
     font-size: 14px;
     color: #48C9B0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-input3{
+    background: #Ffffff;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FDFEFE;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #2980B9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
